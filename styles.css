@@ -1,0 +1,105 @@
+table {
+  border: 2px groove #444444;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  border: 1px solid #444444;
+  color: #444444;
+}
+th {
+  font-family: "Arial bold";
+  font-size: 17px;
+}
+td {
+  font-family: "Arial Regular";
+  font-size: 17px
+}
+section {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+header {
+  background-color: #03a3df;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+nav {
+  float: right;
+  padding-right: 3rem;
+  color: white;
+  font-family: "Arial Bold";
+  font-size: 24px;
+}
+a {
+  color: white;
+  align-content: space-around;
+}
+h1 {
+  font-family: "Arial bold";
+  font-size: 40px;
+  text-align: center;
+  border-bottom-style: ridge;
+  border-bottom-color: #03a3df;
+  border-width: medium;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+h2 {
+  font-family: "Arial bold";
+  font-size: 24px;
+  text-align: center;
+}
+.center {
+text-align: center;
+}
+.ired {
+  font-style: italic;
+  color: red;
+  text-align: center;
+}
+.tborder {
+  border-top-color: #444444;
+  border-top-style: double;
+  border-top-width: 3px;
+}
+
+footer {
+  background-image: url('./image/footer.jpg');
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+
+
+.footer {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: white;
+  font-family: "Arial Regular";
+  font-size: 17px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  vertical-align: middle;
+
+}
+
+.left {
+  float: left;
+  height: 150px;
+  width: 150px;
+}
+.right {
+  float: inherit;
+  padding-top: 0rem;
+  padding-left: 14rem;
+  padding-bottom: 2rem;
+  align-content: flex-start;
+  padding-right: 2rem;
+}
